@@ -1,11 +1,28 @@
-nombreUsuario = input('Digite su nombre: ')
+print("Departamento de confecciones")
+print("1. ingresar productos")
+print("2. ingresar prodcuto a fabrca")
+print("0.   salir")
 
-edadUsuario= int (input('digite su edad: ')) #casteo de datos, convertir un dato en otro
+opcion = 100
+listaProductos = []
 
-if (edadUsuario >=18):
-    print ("Usted es mayor de edad")
-else:
-    print("Usted es menor de edad")  
-    print("usted no puede entrara la discoteca") 
-         
-print("continua el programa")    
+while opcion != 0:
+    opcion = int (input("digite una opcion: "))
+    
+    if opcion ==1:
+        
+        produto=input("vamos a ingresar un nuevo producto a pantaloneria: ")
+        #agregar un producto
+        
+        listaProductos.append(produto)
+        
+    elif opcion== 2:
+        print("estamos mostrando el inverario")
+        print(listaProductos)
+        
+    elif opcion == 0:
+        print("gracias, hasta pronto")
+    else:
+        print("opcion invalida...")   
+print("adios, fin del programa")         
+            

@@ -9,4 +9,4 @@ elif(nivelAngua > 200 and nivelAngua <= 400):
 elif(nivelAngua > 400 ):  
      print(f"el nivel de agua es: {nivelAngua}, esta alto, inicie evacuacion")
 else:
-    print(f"porfavor revise el nivel del agua")
+    print(f"por favor revise el nivel del agua")
